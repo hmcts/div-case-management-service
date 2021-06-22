@@ -68,7 +68,7 @@ public class DraftStoreClientConsumerTest {
     @BeforeEach
     public void setUpEachTest() throws InterruptedException, IOException {
         Thread.sleep(2000);
-        this.draftMap = this.getDraftAsMap("base-case.json");
+        this.draftMap = this.getDraftAsMap("draft-base-case.json");
         this.createDraft = draftModelFactory.createDraft(draftMap, true);
         this.updateDraft = draftModelFactory.updateDraft(draftMap, true);
     }
