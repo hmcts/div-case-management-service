@@ -315,7 +315,7 @@ dependencyManagement {
         dependency group: 'org.yaml',name: 'snakeyaml', version: '1.29'
 
         // solves CVE-2014-3488, CVE-2015-2156, CVE-2019-16869
-        dependencySet(group: 'io.netty', version: '4.1.65.Final') {
+        dependencySet(group: 'io.netty', version: '4.1.66.Final') {
             entry 'netty-buffer'
             entry 'netty-codec'
             entry 'netty-codec-http'
